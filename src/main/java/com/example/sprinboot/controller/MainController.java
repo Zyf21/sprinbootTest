@@ -1,4 +1,4 @@
-package com.example.sprinboot;
+package com.example.sprinboot.controller;
 
 import com.example.sprinboot.domain.Message;
 import com.example.sprinboot.repos.MessageRepo;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
-public class GreetingController {
+public class MainController {
 
     @Autowired
     private MessageRepo messageRepo;
